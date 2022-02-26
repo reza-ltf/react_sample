@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import ClientMonitor from 'skywalking-client-js';
 
 ClientMonitor.register({
-  collector: 'http://2.144.6.32:11800',
+  collector: '',
   service: 'test-ui',
   pagePath: `${process.env.PUBLIC_URL}/index.html`,
   serviceVersion: 'v1.0.0',
